@@ -7,6 +7,10 @@
 		num.value = Math.pow(num.value, 2);
 	}
 
+	function inverse() {
+		var num = document.getElementById("n1");
+		num.value = Math.pow(num.value, 1/2);
+	}
 
 </script> 
 
@@ -14,10 +18,11 @@
 
 <body>
 	<h1>Calculadora de Elena Ortega Salazar</h1>
-	<h2>Ejercicio completo módulo 5: square</h2>
+	<h2>Ejercicio completo módulo 5: inverse</h2>
       	Number:
       	<input type="text" id="n1">
 		
 		  <button onclick="square()"> x<sup>2</sup> </button>
+  		  <button onclick="inverse()"> x<sup>1/2</sup> </button>
 </body>
-
+</html>
